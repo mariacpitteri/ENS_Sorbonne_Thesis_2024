@@ -1,0 +1,239 @@
+
+
+/*STYLE FOR INSTRUCTIONS*/
+
+/*Style for the deck in instructions*/
+.img5 {
+  width: 450px;
+    height: 220px;
+    position:absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+}
+
+/*Style for the pair in instruction*/
+.img6 {
+  width: 85px;
+  height: 110px;
+}
+
+/*Style for basic lottery in instructions*/
+.img7 {
+  width: 155px;
+  height: 155px;
+  position:absolute;
+  left: 50%;
+  top: 35%;
+  transform: translateX(-50%); /* Center it precisely in the horizontal direction */
+
+};
+
+/*Style for suspense rating*/
+.img8 {
+  position:absolute;
+  left: 50%;
+  bottom: 30%;
+  transform: translateX(-50%); /* Center it precisely in the horizontal direction */
+
+};
+
+
+/*STYLE FOR TEXTS*/
+
+/* Style for the text box */
+.textbox {
+  width: 110%;
+  padding: 25px;
+  font-size: 23px;
+  color: #fffafa;
+  background-color: #797777 
+}
+
+
+/*Display initial count number in the middle of page*/
+.text-container2 {
+  text-align: center;  /* Center the text horizontally */
+  color: black;        /* Set text color to black */
+  font-weight: bold;   /* Make the text bold */
+  font-size: 50px;     /* Set the font size to 20 pixels */
+
+}
+
+
+
+/*Display count number on top of page*/
+.text-container3 {
+  position: fixed;     /* Fix the position of the element */
+  top: 30px;              /* Align the element to the top of the viewport */
+  left: 50%;           /* Center the element horizontally */
+  transform: translateX(-50%);  /* Adjust horizontal position */    
+  font-weight: bold;   /* Make the text bold */
+  font-size: 25px;     /* Set the font size to 20 pixels */
+  color: black 
+
+}
+
+
+
+/*Display winning or losing message in the middle of page*/
+.text-container4 {
+  text-align: center;  /* Center the text horizontally */
+  color: black;        /* Set text color to black */
+  font-weight: bold;   /* Make the text bold */
+  font-size: 35px;     /* Set the font size to 20 pixels */
+
+}
+
+
+/*Display round number on top of page*/
+.text-container5 {
+  position: fixed;     /* Fix the position of the element */
+  top: 30px;              /* Align the element to the top of the viewport */
+  left: 10%;           /* Center the element horizontally */
+  transform: translateX(-50%);  /* Adjust horizontal position */
+  color: black;        /* Set text color to black */
+  font-weight: bold;   /* Make the text bold */
+  font-size: 25px;     /* Set the font size to 20 pixels */
+}
+
+
+
+/*Display green count number in the middle of page*/
+.text-container6 {
+  text-align: center;  /* Center the text horizontally */
+  color: green;        /* Set text color to black */
+  font-weight: bold;   /* Make the text bold */
+  font-size: 50px;     /* Set the font size to 20 pixels */
+
+}
+
+
+/*Display red count number in the middle of page*/
+.text-container7 {
+  text-align: center;  /* Center the text horizontally */
+  color: red;        /* Set text color to black */
+  font-weight: bold;   /* Make the text bold */
+  font-size: 50px;     /* Set the font size to 20 pixels */
+
+}
+
+
+
+/*Display button press text under cards*/
+.text-container8 {
+  text-align: center; /* Center-align the text */
+  font-weight: bold;
+
+}
+
+
+
+/*Display count number on top of page under threshold*/
+.text-container9 {
+  position: fixed;     /* Fix the position of the element */
+  top: 30px;              /* Align the element to the top of the viewport */
+  left: 50%;           /* Center the element horizontally */
+  transform: translateX(-50%);  /* Adjust horizontal position */    
+  font-weight: bold;   /* Make the text bold */
+  font-size: 25px;     /* Set the font size to 20 pixels */
+  color: green 
+
+}
+
+
+/*Display count number on top of page over threshold*/
+.text-container10 {
+  position: fixed;     /* Fix the position of the element */
+  top: 30px;              /* Align the element to the top of the viewport */
+  left: 50%;           /* Center the element horizontally */
+  transform: translateX(-50%);  /* Adjust horizontal position */    
+  font-weight: bold;   /* Make the text bold */
+  font-size: 25px;     /* Set the font size to 20 pixels */
+  color: red 
+}
+
+
+
+
+
+
+
+/*STYLE FOR IMAGES*/
+
+/*Style for images of cards*/
+.img {
+  width: 95px;
+  height: 120px;
+}
+
+
+/*Style for basic lottery*/
+.img2 {
+    width: 155px;
+    height: 155px;
+    position:absolute;
+    left: 50%;
+    top: 13%;
+    transform: translateX(-50%); /* Center it precisely in the horizontal direction */
+
+};
+
+
+/*Style for images of cards*/
+.img3 {
+  width: 95px;
+  height: 120px;
+}
+
+
+
+
+/*Display of deck format*/
+.img3-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px; /* Adjust the gap between images as needed */
+  position: relative;
+}
+
+
+
+/*Display of pair with left card border in green, right card border in red*/
+/*Make sure that both images from the pair are on the same line*/
+.img-container2-wrapper {
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Horizontally center the items */
+  align-items: center; /* Vertically center the items */
+  gap: 20px
+}
+
+
+.img-container2 {
+  display: grid;
+  border: 4px solid transparent; /* Set initial border as transparent */
+  background-color:seashell;
+}
+
+
+.img-container2.left {
+  border-color: #F7D355; /* Green border for the left container */
+
+}
+
+.img-container2.right {
+  border-color: #2F6FBA; /* Red border for the right container */
+ 
+}
+
+.img-container2.left_end {
+  border-color: #F7D355; /* Green border for the left container */
+  background-color:#F5DA97;
+
+}
+
+.img-container2.right_end {
+  border-color: #2F6FBA; /* Red border for the right container */
+  background-color: #68A4BB;
+ 
+}
